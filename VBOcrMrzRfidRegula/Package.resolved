@@ -1,0 +1,33 @@
+{
+  "originHash" : "fd2cc7a0f5764bc2c656cbfbb996552d4fb621a929e473ea23cce055d2360a53",
+  "pins" : [
+    {
+      "identity" : "documentreader-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/regulaforensics/DocumentReader-Swift-Package",
+      "state" : {
+        "revision" : "f3c8435664d3384b169743f7ac9b32393ad7aacc",
+        "version" : "7.5.4221"
+      }
+    },
+    {
+      "identity" : "documentreaderocrrfid-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/regulaforensics/DocumentReaderOCRRFID-Swift-Package",
+      "state" : {
+        "revision" : "fe8de1f6f2a8fb68db31c52d92b4ac62802da61a",
+        "version" : "7.5.11021"
+      }
+    },
+    {
+      "identity" : "regulacommon-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/regulaforensics/RegulaCommon-Swift-Package.git",
+      "state" : {
+        "revision" : "b82c4a97a0787d12c3b53bdf89e43951421c3233",
+        "version" : "7.5.935"
+      }
+    }
+  ],
+  "version" : 3
+}
