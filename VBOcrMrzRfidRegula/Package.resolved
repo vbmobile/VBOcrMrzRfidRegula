@@ -1,5 +1,5 @@
 {
-  "originHash" : "fd2cc7a0f5764bc2c656cbfbb996552d4fb621a929e473ea23cce055d2360a53",
+  "originHash" : "c609653811be59d7da3f49ea6ee980af6ff021f051c26ba7b24a86b64d30ea55",
   "pins" : [
     {
       "identity" : "documentreader-swift-package",
@@ -20,12 +20,57 @@
       }
     },
     {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm",
+      "state" : {
+        "revision" : "3bd43e12d6fb54654366a61f7cfaca787318b8ce",
+        "version" : "4.4.1"
+      }
+    },
+    {
+      "identity" : "mobileidsdkios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vbmobile/MobileIdSDKiOS",
+      "state" : {
+        "revision" : "925003b45e4033c4955332ff069fed11325fdb49",
+        "version" : "7.3.5"
+      }
+    },
+    {
       "identity" : "regulacommon-swift-package",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/regulaforensics/RegulaCommon-Swift-Package.git",
       "state" : {
         "revision" : "b82c4a97a0787d12c3b53bdf89e43951421c3233",
         "version" : "7.5.935"
+      }
+    },
+    {
+      "identity" : "vbdependencyinjector",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vbmobile/VBDependencyInjector",
+      "state" : {
+        "revision" : "eff3a5ec22396833d32198dc5996f8b9be42066f",
+        "version" : "1.0.5"
+      }
+    },
+    {
+      "identity" : "vbimageprocessor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vbmobile/VBImageProcessor",
+      "state" : {
+        "revision" : "00792ff99f5140eec9293f66654ff19f1fe49c26",
+        "version" : "1.1.4"
+      }
+    },
+    {
+      "identity" : "vbnetworkclient",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vbmobile/VBNetworkClient",
+      "state" : {
+        "revision" : "c55259a5c235034b1f639644af82acbd19c34cb9",
+        "version" : "5.1.0"
       }
     }
   ],

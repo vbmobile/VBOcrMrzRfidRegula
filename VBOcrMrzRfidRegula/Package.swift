@@ -16,7 +16,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/regulaforensics/DocumentReaderOCRRFID-Swift-Package", from: "7.5.0"),
-        .package(url: "https://github.com/regulaforensics/DocumentReader-Swift-Package", from: "7.5.0")
+        .package(url: "https://github.com/regulaforensics/DocumentReader-Swift-Package", from: "7.5.0"),
+        .package(url: "https://github.com/vbmobile/MobileIdSDKiOS", from: "7.3.5")
     ],
     targets: [
         .binaryTarget(
@@ -29,7 +30,8 @@ let package = Package(
             dependencies: [
                 .target(name: "VBOcrMrzRfidRegula"),
                 .product(name: "OCRRFID", package: "DocumentReaderOCRRFID-Swift-Package"),
-                .product(name: "DocumentReader", package: "DocumentReader-Swift-Package")
+                .product(name: "DocumentReader", package: "DocumentReader-Swift-Package"),
+                .product(name: "MobileIdSDKiOS", package: "MobileIdSDKiOS")
             ],
             path: "Sources",
             sources: ["Dummy.swift"]
