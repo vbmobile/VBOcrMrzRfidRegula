@@ -1,4 +1,4 @@
-# VBOcrMrzRfidRegula
+# ⚠️ VBOcrMrzRfidRegula - INTERNAL USE ONLY ⚠️
 
 **Important Notice:**
  
