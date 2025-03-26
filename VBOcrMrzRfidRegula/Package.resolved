@@ -1,5 +1,5 @@
 {
-  "originHash" : "c609653811be59d7da3f49ea6ee980af6ff021f051c26ba7b24a86b64d30ea55",
+  "originHash" : "093674376a8259da51513b288bd35f06124bb714291182e146c98ac0fd93e26a",
   "pins" : [
     {
       "identity" : "documentreader-swift-package",
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vbmobile/MobileIdSDKiOS",
       "state" : {
-        "revision" : "925003b45e4033c4955332ff069fed11325fdb49",
-        "version" : "7.3.5"
+        "revision" : "02958011b9c80193713e8e6666d55f1efc1b4ac3",
+        "version" : "8.0.0"
       }
     },
     {
@@ -60,8 +60,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vbmobile/VBImageProcessor",
       "state" : {
-        "revision" : "00792ff99f5140eec9293f66654ff19f1fe49c26",
-        "version" : "1.1.4"
+        "revision" : "f41f4d38bf9ba95be6cf3f62ff36ebab986a8f9d",
+        "version" : "1.1.3"
       }
     },
     {
@@ -69,8 +69,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vbmobile/VBNetworkClient",
       "state" : {
-        "revision" : "c55259a5c235034b1f639644af82acbd19c34cb9",
-        "version" : "5.1.0"
+        "revision" : "b2730421ff17f5442cd91feafdb61f8cef4b1382",
+        "version" : "5.1.1"
+      }
+    },
+    {
+      "identity" : "vbutils",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vbmobile/VBUtils",
+      "state" : {
+        "revision" : "7e09510c0df03b12ee9b95b8e8d2a1bb315900f9",
+        "version" : "1.0.0"
       }
     }
   ],
