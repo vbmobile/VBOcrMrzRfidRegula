@@ -1,23 +1,24 @@
-# ⚠️ VBOcrMrzRfidRegula - INTERNAL USE ONLY ⚠️
+# VBOcrMrzRfidRegula 
 
 **Important Notice:**
  
-* This iOS framework is strictly for internal use within Vision-Box an Amadeus Company. 
-* It is NOT intended for distribution or inclusion in App Store releases. 
-* The code may be under active development, unstable, or contain sensitive functionalities.
-* Use at your own risk. We provide no guarantees or support for external use.
+* This repository allows our SeamlessMobile SDK to perform the Document Reader feature.
+* VBOcrMrzRfidRegula uses Regula solutions to read and extract document information through Optical Character Recognition (OCR) and Machine Readable Zone (MRZ) scanning and/or Radio Frequency Identification (RFID) reading.
  
-**Disclaimer:**
- 
-* We strongly discourage anyone outside of Vision-Box an Amadeus Company  from integrating this framework into their projects. 
-* We are not responsible for any issues arising from its unauthorized use or distribution.
- 
-**Contact:**
- 
-*  mobile.apps@vision-box.com
- 
-**Additional Considerations:**
- 
-* The framework is experimental, API and behavior may change without notice.
- 
-**By integrating or using this framework, you acknowledge that you have read and understood this notice.**
+**How to Install:**
+
+* In Xcode, navigate to File > Add Package Dependencies.
+* In the prompt that appears, enter the package URL: https://github.com/vbmobile/VBOcrMrzRfidRegula
+* Select the version you want to use. For new projects, we recommend using the newest version.
+* Select the project you want to add the package.
+* Click Add Package.
+* Once you're finished, Xcode will begin downloading and resolving dependencies.
+
+**Documentation**
+
+For detailed documentation, click here.
+
+**Support:**
+
+Vision-Box an Amadeus Company
+mobile.apps@vision-box.com
