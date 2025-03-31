@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "VBOcrMrzRfidRegula",
-            targets: ["VBOcrMrzRfidRegulaWrapper"]
+            targets: ["VBOcrMrzRfidRegula"]
         ),
     ],
     dependencies: [
@@ -26,7 +26,7 @@ let package = Package(
             checksum: "597a67e3666f9e79f8f67b25864e84ac2707f4f34ebb99b5e4d8ab51875c394d"
         ),
         .target(
-            name: "VBOcrMrzRfidRegulaWrapper",
+            name: "VBOcrMrzRfidRegula",
             dependencies: [
                 .target(name: "VBOcrMrzRfidRegula"),
                 .product(name: "OCRRFID", package: "DocumentReaderOCRRFID-Swift-Package"),
