@@ -15,8 +15,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/regulaforensics/DocumentReaderOCRRFID-Swift-Package", from: "7.5.0"),
-        .package(url: "https://github.com/regulaforensics/DocumentReader-Swift-Package", from: "7.5.0"),
+        .package(url: "https://github.com/regulaforensics/DocumentReaderOCRRFID-Swift-Package", .upToNextMinor(from: "7.5.0")),
+        .package(url: "https://github.com/regulaforensics/DocumentReader-Swift-Package", .upToNextMinor(from: "7.5.0")),
         .package(url: "https://github.com/vbmobile/MobileIdSDKiOS", from: "8.0.0")
     ],
     targets: [
