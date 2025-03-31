@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "VBOcrMrzRfidRegula",
-            targets: ["VBOcrMrzRfidRegula"]
+            targets: ["VBOcrMrzRfidRegulaWrapper"]
         ),
     ],
     dependencies: [
@@ -21,14 +21,14 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "VBOcrMrzRfidRegulaBinary",
+            name: "VBOcrMrzRfidRegula",
             url: "https://vbmobileidstorage.blob.core.windows.net/ios/MobileIdSDKiOS/VBOcrMrzRfidRegula/VBOcrMrzRfidRegula-1.0.0.zip",
             checksum: "597a67e3666f9e79f8f67b25864e84ac2707f4f34ebb99b5e4d8ab51875c394d"
         ),
         .target(
-            name: "VBOcrMrzRfidRegula",
+            name: "VBOcrMrzRfidRegulaWrapper",
             dependencies: [
-                .target(name: "VBOcrMrzRfidRegulaBinary"),
+                .target(name: "VBOcrMrzRfidRegula"),
                 .product(name: "OCRRFID", package: "DocumentReaderOCRRFID-Swift-Package"),
                 .product(name: "DocumentReader", package: "DocumentReader-Swift-Package"),
                 .product(name: "MobileIdSDKiOS", package: "MobileIdSDKiOS")
