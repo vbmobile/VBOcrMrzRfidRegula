@@ -1,0 +1,87 @@
+{
+  "originHash" : "fdf2ad2e1df590b0ebb7a2357c5120e7b277282646d6f217b94f4a034cf10bda",
+  "pins" : [
+    {
+      "identity" : "documentreader-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/regulaforensics/DocumentReader-Swift-Package",
+      "state" : {
+        "revision" : "f3c8435664d3384b169743f7ac9b32393ad7aacc",
+        "version" : "7.5.4221"
+      }
+    },
+    {
+      "identity" : "documentreaderocrrfid-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/regulaforensics/DocumentReaderOCRRFID-Swift-Package",
+      "state" : {
+        "revision" : "fe8de1f6f2a8fb68db31c52d92b4ac62802da61a",
+        "version" : "7.5.11021"
+      }
+    },
+    {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm",
+      "state" : {
+        "revision" : "3bd43e12d6fb54654366a61f7cfaca787318b8ce",
+        "version" : "4.4.1"
+      }
+    },
+    {
+      "identity" : "mobileidsdkios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vbmobile/MobileIdSDKiOS",
+      "state" : {
+        "revision" : "02958011b9c80193713e8e6666d55f1efc1b4ac3",
+        "version" : "8.0.0"
+      }
+    },
+    {
+      "identity" : "regulacommon-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/regulaforensics/RegulaCommon-Swift-Package.git",
+      "state" : {
+        "revision" : "b82c4a97a0787d12c3b53bdf89e43951421c3233",
+        "version" : "7.5.935"
+      }
+    },
+    {
+      "identity" : "vbdependencyinjector",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vbmobile/VBDependencyInjector",
+      "state" : {
+        "revision" : "eff3a5ec22396833d32198dc5996f8b9be42066f",
+        "version" : "1.0.5"
+      }
+    },
+    {
+      "identity" : "vbimageprocessor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vbmobile/VBImageProcessor",
+      "state" : {
+        "revision" : "f41f4d38bf9ba95be6cf3f62ff36ebab986a8f9d",
+        "version" : "1.1.3"
+      }
+    },
+    {
+      "identity" : "vbnetworkclient",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vbmobile/VBNetworkClient",
+      "state" : {
+        "revision" : "b2730421ff17f5442cd91feafdb61f8cef4b1382",
+        "version" : "5.1.1"
+      }
+    },
+    {
+      "identity" : "vbutils",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vbmobile/VBUtils",
+      "state" : {
+        "revision" : "7e09510c0df03b12ee9b95b8e8d2a1bb315900f9",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
