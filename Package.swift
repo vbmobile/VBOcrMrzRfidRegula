@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "VBOcrMrzRfidRegula",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -17,13 +17,13 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/regulaforensics/DocumentReaderOCRRFID-Swift-Package", .upToNextMinor(from: "7.5.0")),
         .package(url: "https://github.com/regulaforensics/DocumentReader-Swift-Package", .upToNextMinor(from: "7.5.0")),
-        .package(url: "https://github.com/vbmobile/MobileIdSDKiOS", .upToNextMinor(from: "8.0.0"))
+        .package(url: "https://github.com/vbmobile/MobileIdSDKiOS", .upToNextMinor(from: "8.1.0"))
     ],
     targets: [
         .binaryTarget(
             name: "VBOcrMrzRfidRegula",
-            url: "https://vbmobileidstorage.blob.core.windows.net/ios/MobileIdSDKiOS/VBOcrMrzRfidRegula/VBOcrMrzRfidRegula-1.0.0.zip",
-            checksum: "597a67e3666f9e79f8f67b25864e84ac2707f4f34ebb99b5e4d8ab51875c394d"
+            url: "https://vbmobileidstorage.blob.core.windows.net/ios/MobileIdSDKiOS/VBOcrMrzRfidRegula/VBOcrMrzRfidRegula-1.1.0.zip",
+            checksum: "ac99760fd4474e584c096db3aa3525ed1746b541c7a70056593f71a44b3825ca"
         ),
         .target(
             name: "VBOcrMrzRfidRegulaWrapper",
