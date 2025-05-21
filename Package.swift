@@ -11,6 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "VBOcrMrzRfidRegula",
+            type: .dynamic,
             targets: ["VBOcrMrzRfidRegulaWrapper"]
         ),
     ],
